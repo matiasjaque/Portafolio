@@ -1,0 +1,91 @@
+
+.fondoPlanEstudio{
+    margin: 0 !important;
+    padding: 18px;
+    background-color:#EA7600;
+}
+
+.PlanEstudio{
+    background-color: #FFFFFF;
+    padding: 15px;
+    /* height: 105vh; */
+    min-height: 90vh;
+}
+
+.header-asg{
+    text-align: left;    
+    margin-bottom: 30px;
+}
+
+.modal-90w{
+    width: 90vw !important;
+    max-width: 90vw !important;
+}
+
+.accordion-facultad{
+    border: solid rgb(214, 214, 214) 1px;
+}
+
+.accBody{
+    padding: 0 !important;
+    margin-left: 20px;
+}
+
+.departamentosU{
+    margin-left: 1px;
+    padding: 5px 10px;
+    border: solid rgb(214, 214, 214) 1px;
+}
+
+.departamentosU:hover{
+    background-color: #63646457;
+}
+
+.formato_datos{
+    overflow: auto;
+    height: 80vh;
+}
+
+.isActive{
+    background-color: #ea7500c9;
+}
+
+#isActive{
+    background-color: #ea7500c9;
+}
+
+.col-unidades{
+    padding: 0px 35px !important;
+}
+.col-asignaturas{
+    padding-right: 35px !important;
+}
+
+.loading{
+    text-align: center;
+    padding: 40vh 40vw;
+}
+
+#fondoHorario{
+    justify-content: space-around;
+
+
+}
+.loading2{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.contenedorUnidad{
+    justify-content: left;
+    align-items: left;
+}
+
+#unidadAcademica{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#planesAcademicos{
+    margin-left:-10px;
+}

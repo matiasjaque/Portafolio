@@ -1,0 +1,310 @@
+.conetenedorNaranaja{
+    padding: 20px;
+    background-color:#EA7600;
+}
+
+.contenedor{
+    /* display: grid;
+    grid-template-columns:auto 1fr; */
+    background-color: #E6E6E6;
+    /* background-color: #EA7600; */
+    
+}
+
+.contenido{
+    display:grid;
+    background-color: #E6E6E6;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    grid-gap: 20px;
+    padding:20px;
+    align-items: center;
+
+    grid-template-areas: "caja1-1 caja1-1 caja1-2 caja1-2 caja1-4 caja1-4 caja1-3 caja1-3"
+                         "caja2-1 caja2-1 caja2-1 caja2-1 caja2-2 caja2-2 caja2-2 caja2-2"
+                         "caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1"
+                         "caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1"
+                         ;
+}
+
+.caja1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 60px 200px 60px;
+    background-color:white;
+    color:black;
+    width:100%;
+    max-height: 430px;
+    height: 100%;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.caja1-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 60px 200px 60px;
+    background-color:white;
+    color:black;
+    width:100%;
+    min-height: 430px;
+    justify-items: center;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.caja1-4{
+    display: grid;
+    grid-column: span 2;
+    background-color:white;
+    color:black;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+    align-items: baseline;
+}
+
+.caja2{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:white;
+    color:black;
+    width:100%;
+    height: 100px;
+    justify-items: center;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.caja3{
+    display: grid;
+    grid-column: span 8;
+    background-color:white;
+    color:black;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+    align-items: baseline;
+}
+
+.caja4{
+    display: grid;
+    grid-column: span 8;
+    background-color:white;
+    color:black;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.etiquetaPeriodo{
+    font-size:18px;
+    text-align: left;
+    display: grid;
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+.parrafoCalculo{
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+#caja1-1{
+    grid-area: caja1-1;
+}
+
+#caja1-2{
+    grid-area: caja1-2;
+    min-height: 430px;
+}
+
+#caja1-3{
+    grid-area: caja1-3;
+}
+
+#caja1-4{
+    grid-area: caja1-4;
+}
+
+#caja2-1{
+    grid-area: caja2-1;
+}
+
+#caja2-2{
+    grid-area: caja2-2;
+}
+
+#caja3-1{
+    grid-area: caja3-1;
+}
+
+#caja4-1{
+    grid-area: 4-1;
+}
+
+.cardsContenedor{
+    display: grid;
+    grid-column: span 2;
+    text-align: center;
+    background-color:#00477F;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    align-items:center;
+}
+
+#h2{
+    color:black;
+    font-size:29px;
+    text-align: center;
+    /* display: grid;
+    grid-column: 1/3; */
+    margin-bottom: 10px;
+}
+
+#h2-1{
+    color:white;
+    font-size:29px;
+    font-weight: bold;
+}
+
+#h2-2{
+    color:#EA7600;
+    font-size:45px;
+    font-weight: bold;
+
+}
+
+#h3{
+    color:black;
+    font-size:16px;
+    text-align: left;
+    display: grid;
+    grid-column: 1/3;
+    
+}
+
+#h4{
+    display:grid;
+    grid-column: 1;
+    grid-row: 1/2;
+    color:black;
+    font-size:16px;
+    text-align: left;
+    height: 40px;
+    padding: 10px;
+}
+
+.cardsRow2{
+    display: grid;
+    text-align: center;    
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cardsContenido{
+    padding: 20px, 0px, 20px, 20px;
+    align-self: center;
+}
+
+.MapaFacultad{
+   /*  display: grid;
+    grid-column: span 8; */
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+#imagen7{
+    width:100%;
+    height:auto;
+}
+
+.Aviso{
+    display: grid;
+    grid-column: span 8;
+    margin-top: 0px;
+}
+
+.ant-statistic-title{
+    color: white;
+    font-size: 15px;
+}
+
+.ant-statistic-content-value {
+    display: inline-block;
+    direction: ltr;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.graficaCircular{
+    display: grid;
+    grid-row: 3/4;
+    align-self: end;
+    width: auto;
+    vertical-align: top;
+}
+
+.unidadesAcademicas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.unidadesAcademicas h6{
+    display: grid;
+    grid-column: 1/2;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 4px;
+
+}
+
+.formulario{
+    display: grid;
+    grid-column: 2/3;
+}
+
+.parrafoCalculoGraf{
+    display: grid;
+    grid-row: 4/5;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 1400px){
+    .contenido{
+        grid-template-areas: "caja1-1 caja1-1 caja1-1 caja1-1 caja1-1 caja1-1 caja1-1 caja1-1"
+                             "caja1-2 caja1-2 caja1-2 caja1-2 caja1-2 caja1-2 caja1-2 caja1-2"
+                             "caja1-4 caja1-4 caja1-4 caja1-4 caja1-4 caja1-4 caja1-4 caja1-4"
+                             "caja1-3 caja1-3 caja1-3 caja1-3 caja1-3 caja1-3 caja1-3 caja1-3"
+                             "caja2-1 caja2-1 caja2-1 caja2-1 caja2-2 caja2-2 caja2-2 caja2-2"
+                             "caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1 caja3-1"
+                             "caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1 caja4-1";
+    }
+    
+}

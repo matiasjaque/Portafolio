@@ -1,0 +1,9 @@
+.scroll_bar_caracteristicas{
+    overflow: auto;
+    height: 69vh;
+}
+
+#pages{
+    margin-bottom: 0%;
+    position: sticky-bottom;
+}

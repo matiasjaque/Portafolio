@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#listaSalas{
+    overflow: auto;
+    height: 60vh;
+}
+
+#numSalas{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#botonBorrar{
+    margin: 0px 10px;
+}
+
+#salaActual{
+
+    margin: 10px 0px;
+    background-color: #c7f1c2;
+}
+
+.isActive{
+    background-color: #ea7500c9;
+}
+
+#isActive{
+    background-color: #ea7500c9;
+}
+
+.loading{
+    text-align: center;
+    margin: auto;
+}
+
+.salaNumItem{
+    width: 100%;
+}
+
+.salaUnItem{
+    width: 100%;
+}
+
+.salaCapItem{
+    width: 100%;
+}
+
+.unclickeable{
+    pointer-events: none;
+    cursor: default;
+}

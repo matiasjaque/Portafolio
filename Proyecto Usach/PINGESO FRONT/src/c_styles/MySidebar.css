@@ -1,0 +1,48 @@
+.sidebar{
+    background-color: #00477F;
+    padding: 0px !important;
+}
+
+.sidebar-container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.listagrupo{
+    font-size: 15px;
+}
+
+.icon{
+    padding-right: 5px;
+}
+
+.isActive{
+    background-color: #ea7500c9 !important;
+}
+
+#listagrupo-title{
+    color: #ffffff;
+    background-color: #00477F;
+    font-weight: bold;
+}
+
+#listagrupo-subitem{
+    color: #ffffff;
+    background-color: #00477F;
+    padding-left: 30px;
+}
+
+#listagrupo-subitem:hover{
+    color: #ffffff;
+    background-color: #ea7500c9;
+}
+
+#listagrupo-item{
+    color: #ffffff;
+    background-color: #00477F;
+}
+
+#listagrupo-item:hover{
+    color: #ffffff;
+    background-color: #ea7500c9;
+}

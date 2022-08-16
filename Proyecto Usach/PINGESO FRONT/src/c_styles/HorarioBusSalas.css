@@ -1,0 +1,120 @@
+
+.contenedorTitulo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.boton{
+    height: 50px;
+    display:grid;
+}
+
+.imagenUsach{
+    
+    width: 220px;
+    height: 290px;
+    justify-self: center;
+    align-self: start;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.textoInformacionSalas{
+    display:grid;
+    grid-column: 2/4;
+    font-size: 18px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.elementosSala{
+    display:grid;
+    grid-column: 4/6;
+    text-align:justify;
+    padding: 10px;
+}
+
+.elementosSala h4{
+    font-size: 21px;
+}
+
+#fondo{
+
+    justify-content: space-around;
+
+}
+
+#dias {
+    width: max-content;
+    height: 100%;
+    background-color: #00477F;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+    text-align: center;
+}
+
+#colDia{
+    width: 170px;
+    min-width: 107px;
+}
+
+.cModulos{
+
+    white-space: pre-wrap;
+    line-break: normal;
+    word-break: break-word;
+    word-wrap: break-word;
+
+    text-align: center;
+    width: 120px;
+    min-width: 120px;
+    font-size: medium;
+    font-style: normal;
+    align-items: center;
+    vertical-align: middle;
+    
+    
+}
+
+.body{
+    vertical-align: middle;
+    text-align: -webkit-center;
+}
+
+#variasSecc{
+    text-align:center;
+    vertical-align: middle;
+    background-color: #81DAF5;
+    border: 1px solid white;
+
+}
+
+#variasSecc:hover{
+    background-color: rgb(92, 195, 246);
+    font-weight: bold;
+}
+
+#infoNormal{
+    background-color: #c7f1c2;
+    text-align: center;   
+    border: 1px solid white;
+}
+#infoNormal:hover{
+    background-color: #a9e9a4;
+    font-weight: bold;
+}
+
+#asigMult{
+    background-color: #FFB56B;
+    text-align: center;   
+    vertical-align: middle;
+    border: 1px solid white;
+}
+#asigMult:hover{
+    background-color: #f9a756;
+    font-weight: bold;
+}

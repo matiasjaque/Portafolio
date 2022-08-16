@@ -1,0 +1,267 @@
+.contenedorNaranjo{
+    padding: 20px;
+    background-color:#EA7600;
+    width:100%;
+    height:100vh;
+}
+
+
+.contenedorGris{
+   
+    background-color: white;
+    width:100%;
+    height:100%;
+}
+
+.BuscadorSala{
+    display:grid;
+    grid-template-rows: 150px auto;
+}
+
+.titulo{
+    height: 60px;
+    width:100%;
+    padding: 10px;    
+    text-align:center;
+    align-self: center;
+}
+
+.seccionBuscadorSala{
+    display:grid;
+    grid-template-columns: auto auto auto 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+}
+
+
+
+.textoInf{
+    display:grid;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    color: #002F82;
+    align-items: center;
+    margin-left: 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+.sala{
+    display:grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+    min-width: 150px;
+    justify-content: right;
+}
+
+.ingresarSala{
+    display:grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: left;
+    text-align: center;
+    width: 275px;
+}
+
+.periodo{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    align-items:center;
+    padding: 5px 10px;
+}
+
+.formPeriodo{
+    display:grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    align-items:center;
+}
+
+.botonBuscarSala{
+    display:grid;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    max-width: 200px;
+    text-align: center;
+    font-weight:bold; 
+    align-items: center;
+    margin-left: 10px;
+}
+
+.buscadorSalaDesdeHasta{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+}
+
+.textoInf2{
+    display:grid;
+    grid-column: 1/8;
+    grid-row: 1/2;
+    color: #002F82;
+    align-items: center;
+    margin-left: 30px;
+    border-bottom: 2px solid #ddd;
+}
+
+.rango{
+    display:grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 10px;
+    width: 150px;
+    justify-content: right;
+}
+
+.ingresarSalaDesde{
+    display:grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: left;
+    text-align: center;
+    max-width: 100px;
+}
+
+.guion{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-content: center;
+    text-align: center;
+    width: 75px;
+}
+
+.ingresarSalaHasta{
+    display:grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-content: left;
+    text-align: center;
+    max-width: 100px;
+}
+
+
+.periodo2{
+    display:grid;
+    grid-column: 5/6;
+    grid-row: 2/3;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    align-items:center;
+    padding: 5px 10px;
+}
+
+.formPeriodo2{
+    display:grid;
+    grid-column: 6/7;
+    grid-row: 2/3;
+    justify-content: center;
+    text-align: center;
+    font-weight:bold;
+    align-items:center;
+}
+
+.botonBuscarSala2{
+    display:grid;
+    grid-column: 7/8;
+    grid-row: 2/3;
+    max-width: 200px;
+    text-align: center;
+    font-weight:bold; 
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+
+.seccionInformacionSala{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.imagenUsach{
+    
+    width: 220px;
+    height: 290px;
+    justify-self: center;
+    align-self: start;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.textoInformacionSalas{
+    display:grid;
+    grid-column: 2/4;
+    font-size: 21px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.informacionSalas{
+    display:grid;
+    grid-column: 4/6;
+    font-size: 21px;
+}
+
+.elementosSala{
+    text-align:justify;
+    padding: 10px;
+}
+
+.informacionHorario{
+    display:grid;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    padding: 10px;
+}
+
+.diseñoTablaHorario{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeraFilaHorario{
+    border: 2px solid black;
+    background: #00477F;
+    color: white;
+}
+
+.primeraFilaHorario th{
+    border: 2px solid black;
+}
+
+.filasContenidoHorario{
+    border: 2px solid black;
+}
+
+.diseñoTablaHorario td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.diseñoTablaHorario th{
+    text-align: center;
+}
+
+.infoHorario{
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    height: -webkit-fill-available;
+    width: 100%;
+}

@@ -1,0 +1,111 @@
+.contenedorTituloMostrarSecc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#sala{
+    display: grid;
+    grid-column: 1/2;
+    color: #002F82;
+}
+
+#dia{
+    display: grid;
+    grid-column: 2/3;
+    color: #002F82;
+}
+
+#modulo{
+    display: grid;
+    grid-column: 3/4;
+    color: #002F82;
+}
+
+#periodo{
+    display: grid;
+    grid-column: 4/5;
+    color: #002F82;
+}
+
+.contenedorTitulosBody{
+    display: grid;
+    grid-template-columns: 120px 130px 305px 305px 190px 1fr;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.dataTitulosBody{
+    font-size: medium;
+    font-weight: bold;
+    color: #002F82;
+    text-align: center;
+}
+
+#codigo{
+    display: grid;
+    grid-column: 1/2;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#seccion{
+    display: grid;
+    grid-column: 2/3;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#asignatura{
+    display: grid;
+    grid-column: 3/4;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#profesor{
+    display: grid;
+    grid-column: 4/5;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#cantAlumnos{
+    display: grid;
+    grid-column: 5/6;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+
+#origen{
+    display: grid;
+    grid-column: 6/7;
+    padding: 5px;
+}
+
+.contenedorData{
+    display: grid;
+    grid-template-columns: 120px 130px 305px 305px 190px 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.data{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: medium;
+    border-right: 1px solid rgb(37, 37, 37);
+}

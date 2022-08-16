@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+#sidebar{
+  position: absolute;
+  top: 31px;
+  z-index: 1;
+}
+
+#navbar{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}

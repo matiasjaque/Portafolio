@@ -1,0 +1,430 @@
+.contenedorNaranjoSectores{
+    padding: 20px;
+    background-color:#EA7600;
+    width:100%;
+    height:100vh;
+}
+
+
+.contenedorBlancoSectores{
+   
+    background-color: white;
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+
+.contenedorBlancoSectores h1{
+    height: 65px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+
+
+.contenedorDataTitulosSectores{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: 1fr;
+   /*  border-bottom: 2px solid #ddd; */
+}
+
+
+.sector{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    color: #00477F;
+    font-size: x-large;
+}
+
+.descripcion{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    color: #00477F;
+    font-size: x-large;
+}
+
+.mapa{
+    display:grid;
+    grid-column: 3 / 4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    color: #00477F;
+    font-size: x-large;
+}
+
+.contenedorDataSec{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+}
+
+.dataNombre{
+    display:grid;
+    grid-column: 1/2;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.dataParrafo{
+    display:grid;
+    grid-column: 2/3;
+    text-align: justify;
+    align-items: center;
+    font-size: larger;
+}
+
+
+.dataMapa{
+    display:grid;
+    grid-column: 3/4;
+}
+
+.boton{
+    margin:5px;
+    align-self: flex-end;
+}
+
+
+/* .paginationSec {
+    display: grid;
+    grid-row: 3/4;
+    justify-content: center;
+} */
+
+.botonesPaginacion{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+/* 
+
+
+.nombres{
+    display:grid;
+    grid-template-columns: 20% 20% auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding:20px;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    padding-bottom: 0px;
+
+    grid-template-areas:    "sectorNombre parrafoNombre mapaNombre";
+}
+
+
+
+
+
+
+
+/* .sector{
+    display:grid;
+    grid-template-columns: 20% 20% auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding:20px;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    padding-top: 0px;
+
+    grid-template-areas:    "sector2 parrafo2 mapa2"
+                            "sector3 parrafo3 mapa3"
+                            "sector4 parrafo4 mapa4"
+                            "sector5 parrafo5 mapa5"
+                            "sector6 parrafo6 mapa6"
+                            "sector7 parrafo7 mapa7"
+                            "sector8 parrafo8 mapa8";
+}
+ */
+
+ /*
+.h2Sector2{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector2{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+}
+
+.imagenSector2{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector3{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 2/3;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector3{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+}
+
+.imagenSector3{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector4{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 3/4;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector4{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 3/4;
+}
+
+.imagenSector4{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector5{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 4/5;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector5{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 4/5;
+}
+
+.imagenSector5{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector6{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 5/6;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector6{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 5/6;
+}
+
+.imagenSector6{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector7{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 6/7;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector7{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 6/7;
+}
+
+.imagenSector7{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 6/7;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+.h2Sector8{
+    display:grid;
+    grid-column: 1 / 2;
+    grid-row: 7/8;
+    height: 40px;
+    width: 130px;
+    align-items: center;
+
+}
+
+.parrafoSector8{
+    display:grid;
+    grid-column: 2 / 3;
+    grid-row: 7/8;
+}
+
+.imagenSector8{
+    display:grid;
+    grid-column: 3/4;
+    grid-row: 7/8;
+    height: 350px;
+    width: 700px;
+    border: 1px solid;
+}
+
+
+#sector2{
+    grid-area: sector2;
+}
+#sector3{
+    grid-area: sector3;
+}
+#sector4{
+    grid-area: sector4;
+}
+#sector5{
+    grid-area: sector5;
+}
+#sector6{
+    grid-area: sector6;
+}
+#sector7{
+    grid-area: sector7;
+}
+#sector8{
+    grid-area: sector8;
+}
+
+#parrafo2{
+    grid-area: parrafo2;
+}
+#parrafo3{
+    grid-area: parrafo3;
+}
+#parrafo4{
+    grid-area: parrafo4;
+}
+#parrafo5{
+    grid-area: parrafo5;
+}
+#parrafo6{
+    grid-area: parrafo6;
+}
+#parrafo7{
+    grid-area: parrafo7;
+}
+#parrafo8{
+    grid-area: parrafo8;
+}
+
+#mapa2{
+    grid-area: mapa2;
+}
+#mapa3{
+    grid-area: mapa3;
+}
+#mapa4{
+    grid-area: mapa4;
+}
+#mapa5{
+    grid-area: mapa5;
+}
+#mapa6{
+    grid-area: mapa6;
+}
+#mapa7{
+    grid-area: mapa7;
+}
+#mapa8{
+    grid-area: mapa8;
+}
+
+#sectorNombre{
+    grid-area: sectorNombre;
+}
+
+#parrafoNombre{
+    grid-area: parrafoNombre;
+}
+
+#mapaNombre{
+    grid-area: mapaNombre;
+}
+
+@media screen and (max-width: 1500px){
+    .sector{
+        grid-template-areas:    "sector2 parrafo2 parrafo2"
+                                "mapa2 mapa2 mapa2"
+                                "sector3 parrafo3 parrafo3"
+                                "mapa3 mapa3 mapa3"
+                                "sector4 parrafo4 parrafo4"
+                                "mapa4 mapa4 mapa4"
+                                "sector5 parrafo5 parrafo5"
+                                "mapa5 mapa5 mapa5"
+                                "sector6 parrafo6 parrafo6"
+                                "mapa6 mapa6 mapa6"
+                                "sector7 parrafo7 parrafo7"
+                                "mapa7 mapa7 mapa7"
+                                "sector8 parrafo8 parrafo8"
+                                "mapa8 mapa8 mapa8";
+    }
+    .nombres{
+        grid-template-areas:    "sectorNombre parrafoNombre mapaNombre";
+    }
+} */
