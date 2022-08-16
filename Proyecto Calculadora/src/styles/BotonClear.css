@@ -1,0 +1,20 @@
+.botonClear{
+    display: flex;
+
+    flex: 1 1;
+    height: 83px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    background: #1b1b32;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.botonClear:hover{
+    background: #ebb000
+}
